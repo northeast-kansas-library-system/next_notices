@@ -1,0 +1,46 @@
+body {
+  background: #50A2E4 !important;
+}
+
+/* Override 800 pixel column width */
+.wy-nav-content {
+  max-width: 85%;
+}
+
+/* Override top left header color */
+.wy-side-nav-search {
+  background-color: #4c9ad8 !important;
+}
+
+/* Override navbar background color */
+.wy-nav-side {
+  background: #57585c !important;
+}
+
+/* Override table of contents font color */
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: #ffffff !important;
+}
+
+/* Override table of contents font color */
+.gif-border  {
+  border: 8px solid #000000;
+}
+
+.ytcontainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
